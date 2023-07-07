@@ -28,6 +28,7 @@ public interface TransactionRequestMapper {
             .phoneNumber(request.getPhoneNumber())
             .anotherPhoneNumber(request.getAnotherPhoneNumber())
             .description(request.getDescription())
+            .amount(request.getAmount())
             .date(LocalDateTime.now())
             .build();
   }

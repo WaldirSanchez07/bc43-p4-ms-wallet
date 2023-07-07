@@ -28,7 +28,7 @@ public interface WalletRequestMapper {
             .phoneNumber(request.getPhoneNumber())
             .phoneImei(request.getPhoneImei())
             .email(request.getEmail())
-            .balance(0.00)
+            .balance(5000.00)
             .createdAt(LocalDateTime.now())
             .build();
   }

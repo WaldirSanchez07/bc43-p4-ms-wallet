@@ -32,7 +32,7 @@ public class WalletRepositoryImpl implements WalletRepository {
 
   @Override
   public Maybe<WalletEntity> findWalletByPhoneNumber(String phoneNumber) {
-    return walletRepository.customFindById(phoneNumber);
+    return walletRepository.customFindByPhoneNumber(phoneNumber);
   }
 
 }
